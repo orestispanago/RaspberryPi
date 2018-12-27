@@ -146,7 +146,7 @@ def get_zeros():
 def send_mail(observation):
     """ Sends mail to multiple recipients if necessary"""
     fromaddr = "orestis.raspberry@gmail.com"
-    recipients = ['orestis.panagopou@upatras.gr', 'athanarg@upatras.gr']
+    recipients = ['orestis.panagopou@upatras.gr', 'YourEmail@upatras.gr']
     toaddr = ', '.join(recipients)
 
     msg = MIMEMultipart()
